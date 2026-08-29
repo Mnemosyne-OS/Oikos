@@ -63,6 +63,36 @@ setting: the only door it holds is a GET, and there is no other one for it to ca
 Then: address (`192.168.1.8:8123` is fine, no scheme needed), token, Connect.
 Mnemosyne asks you before Oikos touches the device, and asks again for any other one.
 
+## Installing it
+
+**Oikos is not in the Mnemosyne OS store catalog.** You add it yourself, by
+pasting this repository's address. That is deliberate rather than an oversight:
+the catalog is a reviewed list, and this has not been reviewed by anyone,
+including against a real Home Assistant.
+
+In Mnemosyne OS, open **MnemoHub**, then:
+
+1. **Add a cartridge**
+2. **A repository**
+3. Paste the URL below into **Repository URL**
+4. **Read it**, which fetches the manifest so you confirm a name and a version
+   rather than a URL you pasted
+5. **Install**
+
+```
+https://github.com/Mnemosyne-OS/Oikos
+```
+
+Two things worth knowing before you do:
+
+- **You get one external cartridge without a license.** Anything added outside
+  the catalog, whether a folder or a repository, spends the same free slot. An
+  active Engramm license lifts the limit.
+- **There is no update button.** Update checking runs against the store catalog,
+  and this is not in it, so no version badge will ever appear on the card. To
+  move to a newer version, uninstall and add the URL again: an install always
+  fetches this repository as it stands right now.
+
 ## Permissions, and what they actually grant
 
 | Manifest | What it means in practice |
