@@ -166,5 +166,5 @@ is the whole point.
 
 [`docs/logo.svg`](docs/logo.svg) is the full mark and
 [`docs/logo-small.svg`](docs/logo-small.svg) drops the echo for sizes where it
-would only muddy the silhouette. [`docs/social-preview.svg`](docs/social-preview.svg)
-is the 1280x640 banner.
+would only muddy the silhouette. [`docs/social-preview.png`](docs/social-preview.png) is the
+1280x640 banner, with [its source](docs/social-preview.svg) beside it.
