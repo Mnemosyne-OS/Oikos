@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Oikos, your home remembered">
+  <title>Oikos, your home remembered</title>
+  <rect width="1280" height="640" fill="#1b1d23"/>
+  <!-- the mark, on its own 72-unit grid, scaled and placed on the 8pt rhythm -->
+  <g transform="translate(128,184) scale(4.888)">
+    <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M6 25 L32 5 L58 25" stroke="#3f7d72" stroke-width="3.5" opacity="0.55" transform="translate(0,-9)"/>
+      <path d="M32 5 L58 25 L58 57 L6 57 L6 25 Z" stroke="#c4633e" stroke-width="5.5"/>
+      <path d="M23 53 L23 43 A9 9 0 0 1 41 43 L41 53 Z" fill="#d9a441" stroke="none"/>
+    </g>
+  </g>
+  <text x="512" y="300" font-family="Georgia, &quot;Iowan Old Style&quot;, serif" font-size="104" fill="#d8dee9">Oikos</text>
+  <text x="512" y="360" font-family="Georgia, &quot;Iowan Old Style&quot;, serif" font-size="39" fill="#d8dee9" opacity="0.9">Your home, remembered.</text>
+  <text x="512" y="428" font-family="ui-monospace, &quot;Cascadia Code&quot;, Consolas, monospace" font-size="20" letter-spacing="1.2" fill="#7d8494">Mnemosyne OS cartridge  ·  Home Assistant  ·  <tspan fill="#e5b567">read-only</tspan></text>
+</svg>

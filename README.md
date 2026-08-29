@@ -1,4 +1,6 @@
-# 🏠 Oikos, your home remembered
+<img src="docs/logo.svg" alt="" width="88" align="left" hspace="16" vspace="4">
+
+# Oikos, your home remembered
 
 A [Mnemosyne OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) cartridge that
 reads what your Home Assistant already knows (temperatures, doors, motion, who is
@@ -154,3 +156,15 @@ that is the correct answer rather than a bug.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## The mark
+
+A house in terracotta, the colour this project uses for the human's own things.
+Above it the same roofline again, lighter, in the teal it uses for memory: the
+same house, remembered. The doorway is lit, because a home you can still see into
+is the whole point.
+
+[`docs/logo.svg`](docs/logo.svg) is the full mark and
+[`docs/logo-small.svg`](docs/logo-small.svg) drops the echo for sizes where it
+would only muddy the silhouette. [`docs/social-preview.svg`](docs/social-preview.svg)
+is the 1280x640 banner.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -9 72 72" width="512" height="512" role="img" aria-label="Oikos">
+  <title>Oikos</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- The roofline again, above and lighter: the same house, remembered.
+         Teal is the memory side of the palette. -->
+    <path d="M6 25 L32 5 L58 25" stroke="#3f7d72" stroke-width="3.5" opacity="0.55" transform="translate(0,-9)"/>
+    <!-- The house itself, in the warm accent that means "the human's". -->
+    <path d="M32 5 L58 25 L58 57 L6 57 L6 25 Z" stroke="#c4633e" stroke-width="5.5"/>
+    <!-- A lit doorway. The only curve in the drawing, and the only fill. -->
+    <path d="M23 53 L23 43 A9 9 0 0 1 41 43 L41 53 Z" fill="#d9a441" stroke="none"/>
+  </g>
+</svg>

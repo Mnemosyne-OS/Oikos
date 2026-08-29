@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32" role="img" aria-label="Oikos">
+  <title>Oikos</title>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M32 7 L57 26 L57 56 L7 56 L7 26 Z" stroke="#c4633e" stroke-width="6"/>
+    <path d="M24 52 L24 43 A8 8 0 0 1 40 43 L40 52 Z" fill="#d9a441" stroke="none"/>
+  </g>
+</svg>
