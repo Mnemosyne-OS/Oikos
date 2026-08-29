@@ -1,0 +1,25 @@
+{
+  "name": "@mnemosyne-plugins/oikos",
+  "displayName": "Oikos",
+  "version": "0.1.0",
+  "description": "Oikos — your home, remembered. Reads the sensors and cameras your Home Assistant already knows about, keeps watching them while its window is closed, and can save camera stills into its own vault so your memory can find them later. It only ever READS your devices: it cannot turn anything on or off.",
+  "permissions": [
+    "net:lan",
+    "watch:background",
+    "vault:write"
+  ],
+  "updateStrategy": "git",
+  "entrypoints": {
+    "renderer": "index.html"
+  },
+  "widgets": [
+    {
+      "id": "oikos-main",
+      "icon": "🏠",
+      "name": "Oikos",
+      "route": "index.html",
+      "defaultWidth": 860,
+      "defaultHeight": 640
+    }
+  ]
+}

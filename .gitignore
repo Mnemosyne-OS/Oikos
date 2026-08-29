@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+
+# dist/ is deliberately NOT ignored here.
+# A cartridge is installed by downloading this repo's tarball, so the built
+# assets have to be committed: nothing runs a build on the user's machine.

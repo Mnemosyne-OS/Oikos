@@ -1,0 +1,4 @@
+# Normalise every text file to LF in the repository, whatever the contributor's
+# platform writes locally. Without this a Windows checkout re-commits the whole
+# tree with CRLF and every diff becomes unreadable.
+* text=auto eol=lf
