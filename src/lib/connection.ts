@@ -30,7 +30,7 @@ export interface Explained {
 
 const EXPLAINED: Record<Refusal, Explained> = {
   HOST_NOT_GRANTED: {
-    message: 'You have not allowed Oikos to reach this device — or you took the permission back. Try again and Mnemosyne will ask.',
+    message: 'You have not allowed Oikos to reach this device, or you took the permission back. Try again and Mnemosyne will ask.',
     retryable: true, fixAddress: false,
   },
   NOT_A_PRIVATE_ADDRESS: {
@@ -46,7 +46,7 @@ const EXPLAINED: Record<Refusal, Explained> = {
     retryable: false, fixAddress: true,
   },
   DNS_FAILED: {
-    message: 'That name could not be resolved. If you used homeassistant.local, try its IP address instead — some networks do not answer .local names.',
+    message: 'That name could not be resolved. If you used homeassistant.local, try its IP address instead, since some networks do not answer .local names.',
     retryable: true, fixAddress: true,
   },
   LAN_TIMEOUT: {

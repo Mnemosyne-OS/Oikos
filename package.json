@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Oikos — your home, remembered. Reads what Home Assistant already knows, watches it while closed, and never controls anything.",
+  "description": "Oikos, your home remembered. Reads what Home Assistant already knows, watches it while closed, and never controls anything.",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
