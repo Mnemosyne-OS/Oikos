@@ -105,7 +105,9 @@ describe('every failure ends in a sentence, and nothing is stored', () => {
 });
 
 describe('the rhythm', () => {
-  beforeEach(() => vi.useFakeTimers());
+  // Block body on purpose: the concise form returns `vi`, which a hook reads as
+  // a cleanup callback it should call afterwards.
+  beforeEach(() => { vi.useFakeTimers(); });
 
   it('does nothing at all while it is off', () => {
     run();

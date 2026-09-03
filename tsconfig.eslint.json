@@ -1,0 +1,13 @@
+{
+  /* Lint-only project.
+   *
+   * tsconfig.json deliberately EXCLUDES the tests and the setup file so
+   * shipping does not depend on vitest being installed. ESLint still needs to
+   * type them, and listing them one glob at a time under `allowDefaultProject`
+   * stops working past a handful of files — it has a match-count ceiling. One
+   * config that includes everything is the honest answer, and it is what
+   * `pnpm typecheck` runs. */
+  "extends": "./tsconfig.json",
+  "include": ["src", "eslint.config.js", "vite.config.ts"],
+  "exclude": []
+}

@@ -24,13 +24,11 @@ export default tseslint.config(
     ],
     languageOptions: {
       parserOptions: {
-        // Tests are excluded from tsconfig.json on purpose (the app build must
-        // not depend on the test runner being installed), so the project
-        // service cannot type them — allowDefaultProject lets it lint them
-        // anyway instead of reporting a parsing error on the whole file.
-        projectService: {
-          allowDefaultProject: ['src/lib/*.test.ts', 'src/components/*.test.tsx', 'src/hooks/*.test.ts', 'src/test-setup.ts'],
-        },
+        // tsconfig.json excludes the tests so the app build does not depend
+        // on the test runner. tsconfig.eslint.json includes them, which types
+        // them for linting without a per-file allowlist that stops working
+        // past a handful of files.
+        project: ['./tsconfig.eslint.json'],
         tsconfigRootDir: import.meta.dirname,
       },
     },
@@ -73,7 +71,7 @@ export default tseslint.config(
 
   // Tests reach into shapes on purpose to reproduce real bad data.
   {
-    files: ['src/**/*.test.ts'],
+    files: ['src/**/*.test.{ts,tsx}'],
     rules: {
       '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/no-explicit-any': 'off',

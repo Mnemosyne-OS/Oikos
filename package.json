@@ -1,6 +1,6 @@
 {
   "name": "@mnemosyne-plugins/oikos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Oikos, your home remembered. Reads what Home Assistant already knows, watches it while closed, and never controls anything.",
@@ -10,6 +10,7 @@
     "dev:cartridge": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.eslint.json",
     "lint": "eslint src --max-warnings 0",
     "lint:fix": "eslint src --fix",
     "test": "vitest run"
